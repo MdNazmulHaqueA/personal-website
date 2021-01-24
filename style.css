@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+section {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #3e3e3e;
+}
+h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 80px;
+    color: #3c40c6;
+}
+img {
+    width: 100%;
+}
+
+/* nav bar styling */
+.nav-bar {
+    margin-top: 1%;
+    padding-right: 10%;
+}
+nav ul li {
+    list-style: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    float: right;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #3c40c6;
+}
+
+nav ul li a:hover {
+    color: #ef5777;
+}
+/* Intro Section and About Section Styling */
+.half-width-area {
+    width: 40%;
+    float: left;
+}
+
+.intro-texts,
+.about-texts {
+    margin-top: 11%;
+    padding-left: 10%;
+}
+.intro-texts h1,
+.about-texts h1 {
+    margin-bottom: -80px;
+}
+
+.name {
+    color: #ffa801;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px lightgray;
+}
+
+.intro-texts p {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #3c40c6, #4348c8, #4a50cb, #5057cd, #575fcf);
+    padding: 15px 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+}
+.button:hover {
+    background-image: linear-gradient(to right, #f53b57, #f44260, #f34a68, #f15070, #ef5777);
+}
+
+.about {
+    margin-bottom: 3%;
+}
+.about-image {
+    padding-left: 10%;
+}
+
+.about-texts p {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 60%;
+}
+
+.intro-image,
+.about-image {
+    margin-top: -5%;
+}
+/* Portfolio Section Styling */
+.portfolio {
+    background-color: #e5e5e5;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.work-showcase-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.work-showcase {
+    width: 29%;
+    float: left;
+    margin: 1%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.portfolio h1,
+.client-review h1 {
+    font-size: 48px;
+    text-align: center;
+}
+.pink-text {
+    color: #ef5777;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: auto;
+    color: #363958;
+}
+
+.work-showcase p {
+    line-height: 28px;
+    color: #6c6c6c;
+    width: 85%;
+}
+.client-review {
+    text-align: center;
+    margin-top: 3%;
+}
+.client-review h3 {
+    font-size: 20px;
+    /* margin-bottom: 1%; */
+}
+
+.client-review small {
+    font-size: 20px;
+    color: dimgray;
+}
+
+.review {
+    width: 50%;
+    margin: 2% auto;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+hr {
+    border: 8px dotted #3c40c6;
+    border-bottom: none;
+    width: 3%;
+    margin: 5px auto;
+}
+
+.work {
+    background-image: url("shapes/Group_33094_1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    margin: 5% auto;
+    padding: 1%;
+}
+
+.work-header h1 {
+    color: #ffffff;
+    font-size: 64px;
+    line-height: 100%;
+    padding-left: 50px;
+    font-weight: normal;
+}
+
+.work-header {
+    width: 70%;
+    float: left;
+}
+.chat-button-position {
+    width: 30%;
+    float: right;
+    margin-top: 70px;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.connected-text {
+    font-family: "Bebas Neue", cursive;
+    color: #696871;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.email {
+    color: #3c40c6;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: auto;
+}
+
+.social-icons img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
